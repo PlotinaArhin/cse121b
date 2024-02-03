@@ -125,3 +125,4 @@ document.getElementById('multiplied').textContent = multipliedArray.join(', ');
 const sumOfMultiplied = numbersArray.map(number => number * 2).reduce((accumulator, currentValue) => accumulator + currentValue, 0);
 document.getElementById('sumOfMultiplied').textContent = sumOfMultiplied;
 
+
